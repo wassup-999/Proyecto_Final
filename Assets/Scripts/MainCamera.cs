@@ -13,4 +13,5 @@ public class MainCamera : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothSpeed);
         }
     }
+
 }
